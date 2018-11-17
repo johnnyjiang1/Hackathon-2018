@@ -179,18 +179,18 @@ header {
 	line-height: 1.8;
 	padding-top: 22px;
 	padding-left: 22px;
-	text-align: center;
+	text-align: left;
 	padding-bottom: 22px;
 	padding-right: 22px;
 }
 /*Each footer content */
 #mainWrapper footer div {
-	width: 27%;
+	width: 100%;
 	float: left;
-	padding-left: 4%;
-	padding-right: 2%;
+	padding-left: 0%;
+	padding-right: 0%;
 	color: rgba(255,255,255,1.00);
-	text-align: justify;
+	text-align: center;
 }
 /* Links in footer */
 footer div a {
@@ -318,11 +318,11 @@ footer .footerlinks {
 	float: none;
 	width: 100%;
 	position: relative;
-	top: 17px;
+	top: 0px;
 	clear: both;
 	text-align: center;
 	left: 0%;
-	padding-bottom: 19px;
+	padding-bottom: 0px;
 }
 /* Container for each footer divisions */
 #mainWrapper footer div {
@@ -335,7 +335,7 @@ footer .footerlinks {
 	padding-top: 0px;
 	padding-bottom: 0px;
 	display: inline;
-	padding-right: 35px;
+	padding-right: 0px;
 }
 /* Footer region */
 #mainWrapper footer {
