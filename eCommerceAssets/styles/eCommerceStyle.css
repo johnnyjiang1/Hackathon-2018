@@ -116,8 +116,21 @@ header {
 	padding-right: 5%;
 	width: 22%;
 }
+.mainContent .productRow .productInfo2 {
+	float: left;
+	padding-left: 10%;
+	padding-right: 10%;
+	width: 30%;
+}
 /* Prices of a products in catalog */
 .productRow .productInfo .price {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 22px;
+	position: relative;
+	top: -20px;
+}
+.productRow .productInfo2 .price {
 	font-family: 'Montserrat', sans-serif;
 	color: rgba(146,146,146,1.00);
 	font-size: 22px;
