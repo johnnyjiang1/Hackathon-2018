@@ -14,9 +14,10 @@ header {
 /* Logo placeholder*/
 #logo {
 	float: left;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	width: 139px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	width: 499px;
+	height: 140px;
 	text-align: center;
 	color: rgba(255,255,255,1.00);
 	background-color: rgba(190,190,190,1.00);
@@ -24,18 +25,24 @@ header {
 /* div for Links in header */
 #headerLinks {
 	float: left;
-	width: calc( 100% - 139px );
+	width: 677px;
 	text-align: right;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background-color: rgba(255,255,255,1.00);
+	padding-top: 0px;
+	padding-bottom: 118px;
+	background-color: rgba(12,15,82,1.00);
+	padding-left: 0px;
 }
 /* Links in header */
 #headerLinks a {
+	background: #F30000;
+	font-family: patua-one;
 	text-decoration: none;
-	color: rgba(146,146,146,1.00);
-	padding-left: 66px;
-	font-size: 14px;
+	color: rgba(255,255,255,1.00);
+	padding-left: 23px;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	padding-right: 24px;
 }
 /* Offer text banner*/
 #offer {
@@ -51,7 +58,7 @@ header {
 #content {
 	clear: both;
 	overflow: auto;
-	padding-top: 29px;
+	padding-top: 0px;
 }
 /* Sidebar */
 #content .sidebar {
@@ -62,7 +69,7 @@ header {
 	padding-left: 3%;
 	padding-right: 3%;
 	text-align: left;
-	background-color: rgba(54,0,135,1.00);
+	background-color: rgba(16,14,82,1.00);
 	padding-top: 36px;
 	height: 784px;
 }
@@ -86,7 +93,7 @@ header {
 	border-radius: 0px;
 	height: 42px;
 	text-align: center;
-	color: rgba(0,0,0,1.00);
+	color: rgba(208,207,207,1.00);
 	font-size: 14px;
 	;
 	margin-bottom: 21px;
