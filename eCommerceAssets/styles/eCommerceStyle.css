@@ -75,11 +75,14 @@ header {
 }
 /* main content of the site */
 #content .mainContent {
-	float: left;
-	width: 72%;
-	height: 1%;
-	text-align: center;
-	padding-left: 1%;
+    float: left;
+    width: 74%;
+    height: 1%;
+    text-align: center;
+    padding-left: 0%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
 }
 /*menubar's properties for menus in sidebar */
 #content .sidebar #menubar {
@@ -125,10 +128,10 @@ header {
 	width: 22%;
 }
 .mainContent .productRow .productInfo2 {
-	float: left;
-	padding-left: 10%;
-	padding-right: 10%;
-	width: 30%;
+    float: left;
+    padding-left: 10%;
+    padding-right: 17%;
+    width: 23%;
 }
 /* Prices of a products in catalog */
 .productRow .productInfo .price {
@@ -141,7 +144,7 @@ header {
 .productRow .productInfo2 .price {
 	font-family: 'Montserrat', sans-serif;
 	color: rgba(146,146,146,1.00);
-	font-size: 22px;
+	font-size: 15px;
 	position: relative;
 	top: -20px;
 }
@@ -202,7 +205,7 @@ footer div a {
 }
 /* Product's images in catalog */
 .productInfo div img {
-	width: 143%;
+	width: 140%;
 }
 /*Links in sidebar */
 .sidebar #menubar .menu ul li a {
