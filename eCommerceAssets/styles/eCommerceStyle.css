@@ -76,9 +76,10 @@ header {
 /* main content of the site */
 #content .mainContent {
 	float: left;
-	width: 70%;
+	width: 72%;
+	height: 1%;
 	text-align: center;
-	padding-left: 4%;
+	padding-left: 1%;
 }
 /*menubar's properties for menus in sidebar */
 #content .sidebar #menubar {
@@ -133,7 +134,7 @@ header {
 .productRow .productInfo .price {
 	font-family: 'Montserrat', sans-serif;
 	color: rgba(146,146,146,1.00);
-	font-size: 22px;
+	font-size: 16px;
 	position: relative;
 	top: -20px;
 }
@@ -201,7 +202,7 @@ footer div a {
 }
 /* Product's images in catalog */
 .productInfo div img {
-	width: 100%;
+	width: 143%;
 }
 /*Links in sidebar */
 .sidebar #menubar .menu ul li a {
