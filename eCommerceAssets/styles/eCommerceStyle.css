@@ -55,14 +55,14 @@ header {
 }
 /* Sidebar */
 #content .sidebar {
-	font-family: 'Montserrat', sans-serif;
-	color: rgba(146,146,146,1.00);
+	font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'sans-serif;
+	color: rgba(0,0,0,1.00);
 	float: left;
 	width: 20%;
 	padding-left: 3%;
 	padding-right: 3%;
-	text-align: center;
-	background-color: rgba(246,246,246,1.00);
+	text-align: left;
+	background-color: rgba(54,0,135,1.00);
 	padding-top: 36px;
 	height: 784px;
 }
@@ -86,7 +86,7 @@ header {
 	border-radius: 0px;
 	height: 42px;
 	text-align: center;
-	color: rgba(208,207,207,1.00);
+	color: rgba(0,0,0,1.00);
 	font-size: 14px;
 	;
 	margin-bottom: 21px;
