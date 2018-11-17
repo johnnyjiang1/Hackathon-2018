@@ -24,13 +24,13 @@ header {
 }
 /* div for Links in header */
 #headerLinks {
-	float: left;
-	width: 677px;
-	text-align: right;
-	padding-top: 0px;
-	padding-bottom: 118px;
-	background-color: rgba(12,15,82,1.00);
-	padding-left: 0px;
+    float: left;
+    width: 677px;
+    text-align: right;
+    padding-top: 0px;
+    padding-bottom: 44px;
+    background-color: rgba(12,15,82,1.00);
+    padding-left: 0px;
 }
 /* Links in header */
 #headerLinks a {
@@ -56,9 +56,11 @@ header {
 }
 /* Main content of the site */
 #content {
-	clear: both;
-	overflow: auto;
-	padding-top: 0px;
+    clear: both;
+    overflow: auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 /* Sidebar */
 #content .sidebar {
@@ -72,18 +74,56 @@ header {
     background-color: rgba(16,14,82,1.00);
     padding-top: 2px;
     height: 1300px;
+    padding-bottom: 71px;
 }
 /* main content of the site */
-#content .mainContent {
-    float: left;
-    width: 74%;
-    height: 1%;
-    text-align: center;
-    padding-left: 0%;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-right: 0px;
-}
+.container{
+    width: 550px;
+    height: 250px;
+    margin-top: 7px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -54px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid red;
+    }  
+    .container .imgcss{  
+        animation:scoll 8s linear 0s infinite;  
+    } 
+    .container ul {
+        width:4000px;  
+        left:0;  
+        top:0;  
+        position: absolute;  
+    }
+    .container ul:hover {
+        animation-play-state: paused;
+    } 
+    .container ul li{  
+        float:left;  
+    }  
+    @keyframes scoll{  
+        from{  
+            left:0;  
+        }  
+        to{  
+            left:-960px;  
+        }  
+    }   
+    @keyframes textScroll{  
+        from{  
+            left:0;  
+        }  
+        to{  
+            left:-986px;  
+        }  
+    }   
+--------------------- 
+作者：Aliguagua 
+来源：CSDN 
+原文：https://blog.csdn.net/Aliguagua/article/details/78822157 
+版权声明：本文为博主原创文章，转载请附上博文链接！
 /*menubar's properties for menus in sidebar */
 #content .sidebar #menubar {
 	text-align: left;
