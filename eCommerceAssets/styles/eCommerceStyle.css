@@ -24,13 +24,16 @@ header {
 }
 /* div for Links in header */
 #headerLinks {
-    float: left;
-    width: 677px;
-    text-align: right;
-    padding-top: 0px;
-    padding-bottom: 44px;
-    background-color: rgba(12,15,82,1.00);
-    padding-left: 0px;
+	float: left;
+	width: 397px;
+	text-align: right;
+	padding-top: 0px;
+	padding-bottom: 28px;
+	background-color: rgba(12,15,82,1.00);
+	padding-left: 0px;
+	padding-right: 16px;
+	color: #FFFFFF;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
 /* Links in header */
 #headerLinks a {
@@ -56,37 +59,37 @@ header {
 }
 /* Main content of the site */
 #content {
-    clear: both;
-    overflow: auto;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-left: 0px;
+	clear: both;
+	overflow: auto;
+	padding-top: 0px;
+	padding-right: 8px;
+	padding-left: 0px;
 }
 /* Sidebar */
 #content .sidebar {
-    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-    color: rgba(220,212,212,1.00);
-    float: left;
-    width: 20%;
-    padding-left: 3%;
-    padding-right: 3%;
-    text-align: left;
-    background-color: rgba(16,14,82,1.00);
-    padding-top: 2px;
-    height: 1300px;
-    padding-bottom: 71px;
+	font-family: "Hylia Serif Beta";
+	color: rgba(220,212,212,1.00);
+	float: left;
+	width: 20%;
+	padding-left: 3%;
+	padding-right: 3%;
+	text-align: left;
+	background-color: rgba(16,14,82,1.00);
+	padding-top: 2px;
+	height: 1300px;
+	padding-bottom: 71px;
 }
 /* main content of the site */
 .container{
-    width: 550px;
-    height: 250px;
-    margin-top: 7px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: -54px;
-    overflow: hidden;
-    position: relative;
-    border: 1px solid red;
+	width: 550px;
+	height: 250px;
+	margin-top: 7px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: -77px;
+	overflow: hidden;
+	position: relative;
+	border: 1px solid red;
     }  
     .container .imgcss{  
         animation:scoll 8s linear 0s infinite;  
@@ -119,11 +122,7 @@ header {
             left:-986px;  
         }  
     }   
---------------------- 
-作者：Aliguagua 
-来源：CSDN 
-原文：https://blog.csdn.net/Aliguagua/article/details/78822157 
-版权声明：本文为博主原创文章，转载请附上博文链接！
+
 /*menubar's properties for menus in sidebar */
 #content .sidebar #menubar {
 	text-align: left;
@@ -175,7 +174,7 @@ header {
 }
 /* Prices of a products in catalog */
 .productRow .productInfo .price {
-	font-family: 'Montserrat', sans-serif;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	color: rgba(146,146,146,1.00);
 	font-size: 16px;
 	position: relative;
@@ -190,14 +189,14 @@ header {
 }
 /* Content holder for products in catalog*/
 .productRow .productInfo .productContent {
-    position: relative;
-    top: -37px;
-    font-size: 14px;
-    font-family: source-sans-pro, sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    color: rgba(146,146,146,1.00);
-    white-space: pre-wrap;
+	position: relative;
+	top: -37px;
+	font-size: 14px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: normal;
+	font-weight: 900;
+	color: rgba(146,146,146,1.00);
+	white-space: pre-wrap;
 }
 /* Buy button for products in catalog */
 .productRow .productInfo .buyButton {
@@ -235,6 +234,8 @@ header {
 	padding-right: 0%;
 	color: rgba(255,255,255,1.00);
 	text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 14px;
 }
 /* Links in footer */
 footer div a {
@@ -469,4 +470,6 @@ header #headerLinks a {
 	width: 100%;
 	padding-left: 0px;
 }
+}
+.hover {
 }
