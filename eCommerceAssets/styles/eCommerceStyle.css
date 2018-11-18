@@ -89,7 +89,6 @@ header {
 	margin-bottom: -77px;
 	overflow: hidden;
 	position: relative;
-	border: 1px solid red;
     }  
     .container .imgcss{  
         animation:scoll 8s linear 0s infinite;  
